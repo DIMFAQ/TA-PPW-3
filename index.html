@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HIRAWR-Tech — Creative Digital Studio</title>
+  <meta name="description" content="HIRAWR-Tech — studio kreatif digital: UI/UX, motion interface, dan brand identity untuk startup & bisnis kreatif." />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="antialiased text-gray-800 bg-gray-50">
+
+  <!-- header inputnya -->
+  <header class="bg-white shadow-sm">
+    <input id="menu-toggle" type="checkbox" class="hidden peer" />
+
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="flex items-center justify-between h-16">
+        <a href="#" class="flex items-center gap-3">
+          <img src="foto/logo.png" alt="logo HIRAWR-Tech" class="w-10 h-10 rounded-lg object-cover" />
+          <div>
+            <span class="font-semibold">HIRAWR-Tech</span>
+            <div class="text-xs text-gray-500 -mt-0.5">Creative Digital Studio</div>
+          </div>
+        </a>
+
+        <!-- nav desktop (ga keliatan di mobile) -->
+        <nav class="hidden md:flex items-center gap-6">
+          <a href="#features" class="hover:text-blue-600">Services</a>
+          <a href="#portfolio" class="hover:text-blue-600">Portfolio</a>
+          <a href="#about" class="hover:text-blue-600">About</a>
+          <a href="#contact" class="hover:text-blue-600">Contact</a>
+          <a href="#" class="ml-4 inline-block px-4 py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-500">Start a Project</a>
+        </nav>
+
+        <!-- label burger ada di kanan atas (mobile) -->
+        <label for="menu-toggle" class="md:hidden flex items-center px-4 py-3 cursor-pointer">
+          <div class="flex flex-col gap-1.5">
+            <span class="w-6 h-0.5 bg-gray-800 transition-all peer-checked:rotate-45 peer-checked:translate-y-1.5"></span>
+            <span class="w-6 h-0.5 bg-gray-800 transition-all peer-checked:opacity-0"></span>
+            <span class="w-6 h-0.5 bg-gray-800 transition-all peer-checked:-rotate-45 peer-checked:-translate-y-1.5"></span>
+          </div>
+          <span class="sr-only">buka/tutup menu</span> 
+        </label>
+      </div>
+    </div>
+
+    <div class="hidden peer-checked:block md:hidden border-t bg-white">
+      <div class="px-4 pt-2 pb-6 space-y-2">
+        <!-- link-mobile simple, nanti bisa diganti -->
+        <a href="#features" class="block">Services</a>
+        <a href="#portfolio" class="block">Portfolio</a>
+        <a href="#about" class="block">About</a>
+        <a href="#contact" class="block">Contact</a>
+        <a href="#" class="block mt-2 px-4 py-2 rounded-lg bg-blue-600 text-white text-center">Start a Project</a>
+      </div>
+    </div>
+  </header>
+
