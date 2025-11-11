@@ -1,5 +1,6 @@
 # ✨ HIRAWR-Tech — Creative Digital Studio (TUGAS AKHIR)
 
+<img src="foto/logo.png" alt="Logo HIRAWR-Tech" width="100"/>
 
 ## 🚀 Deskripsi Proyek
 
