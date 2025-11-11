@@ -1,6 +1,5 @@
 # ✨ HIRAWR-Tech — Creative Digital Studio (TUGAS AKHIR)
 
-<img src="Web-Dekstop/1.png" alt="Screenshot Tampilan Hero Dekstop" width="80%" />
 
 ## 🚀 Deskripsi Proyek
 
