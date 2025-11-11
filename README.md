@@ -1,7 +1,7 @@
 # ✨ HIRAWR-Tech — Creative Digital Studio (TUGAS AKHIR)
-
+<p align="center">
 <img src="foto/logo.png" alt="Logo HIRAWR-Tech" width="100"/>
-
+</p>
 ## 🚀 Deskripsi Proyek
 
 Ini adalah *landing page* tugas akhir untuk **HIRAWR-Tech**, sebuah studio kreatif digital yang berfokus membangun **Pengalaman Digital yang Berjiwa & Bermakna**.
